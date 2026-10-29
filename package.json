@@ -1,0 +1,16 @@
+{
+  "name": "tienda-app",
+  "version": "1.0.0",
+  "description": "CRUD de productos con Express y MongoDB (tienda_db)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongodb": "^6.10.0"
+  },
+  "engines": {
+    "node": ">=20.6"
+  }
+}
